@@ -6,7 +6,7 @@ lis.append(input("Enter 1st element:"))
 lis.append(input("Enter 2nd element:"))
 lis.append(input("Enter 3rd element:"))
 lis.append(input("Enter 4th element:"))
-lis2=lis[::-1]
+lis2=lis[::-1]                 # Can use lis2=lis.copy() then lis2.reverse then compare instead of slicing
 if(lis2==lis):
     print("You entered", lis,"which when reversed is",lis2,",so it is a palindrome")
 else:
